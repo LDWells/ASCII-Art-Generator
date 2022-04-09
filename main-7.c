@@ -10,7 +10,7 @@ int main(){
 
 // This function from lodepng will read in the image and fill in the bytes and size
 
-    char filename[100] = "C:\\Users\\LaDar\\CLionProjects\\ArtGen3\\cookie.png";
+    char filename[100] = "C:\\Users\\LaDar\\CLionProjects\\ArtGen3\\cookie.png"; \\ or wherever this image is stored
     error = lodepng_decode32_file(&rawImageBytes, &width, &height, filename);
     if (error) {
 
